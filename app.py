@@ -1,3 +1,6 @@
+__import__('pysqlite3') #to resolve issues rrgarding streamlit deployment
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 #importing the libraries
 import streamlit as st
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain #to create a retriever with chat history functionality and create retrieval chain
