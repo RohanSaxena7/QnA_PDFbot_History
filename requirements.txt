@@ -8,3 +8,4 @@ langchain-community
 langchain-text-splitters
 pypdf
 protobuf==3.20.3
+pysqlite3-binary
