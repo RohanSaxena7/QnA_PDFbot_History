@@ -60,7 +60,7 @@ if api_key:
         #Split(make chunks) and create embeddings for the documents
         text_splitter = RecursiveCharacterTextSplitter(chunk_size = 4000, chunk_overlap =500)
         splits = text_splitter.split_documents(documents=documents) #chunks have been made
-        vectorstore = Chroma.from_documents(documents= documents, embedding= embeddings) #storintg these chunks into the vectorstore as vectors
+        vectorstore = Chroma.from_documents(documents= splits, embedding= embeddings) #storintg these chunks into the vectorstore as vectors
         retriever = vectorstore.as_retriever()
         
         #system prompt
