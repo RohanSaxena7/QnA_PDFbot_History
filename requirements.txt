@@ -1,9 +1,9 @@
-python-dotenv
 streamlit
+python-dotenv
 langchain
-langchain_groq
-langchain_huggingface
-langchain_chroma
-langchain_community
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-community
 langchain-text-splitters
 pypdf
