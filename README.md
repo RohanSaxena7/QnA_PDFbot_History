@@ -2,7 +2,7 @@
 
 An intelligent Q&A chatbot using **LangChain**, **HuggingFace embeddings**, **Groq's Gemma2 LLM**, and **Streamlit**. Upload PDFs and ask context-aware questions with chat history support. Each user provides their own API key for secure, personalized access.
 
-**App Link**: [Conversational RAG Chatbot](https://your-streamlit-app-link.com)
+**App Link**: [Conversational RAG Chatbot](https://qnapdfbothistory-hy43ewikzwizbs9ytrnchx.streamlit.app)
 
 ---
 
